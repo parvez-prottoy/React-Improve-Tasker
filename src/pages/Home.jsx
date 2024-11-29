@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 import TaskContainer from "../components/Tasks/TaskContainer";
 
@@ -6,6 +7,7 @@ const Home = () => {
     <>
       <Header />
       <TaskContainer />
+      <Footer />
     </>
   );
 };
